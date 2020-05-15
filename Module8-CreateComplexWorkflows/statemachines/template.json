@@ -1,0 +1,38 @@
+{
+  "StartAt": "Parse S3 Object",
+  "States": {
+    "Parse S3 Object": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:::function:lambdaParseS3Object",
+      "ResultPath": "$.stocks",
+      "Next": "Submit Jobs"
+    },
+    "Submit Jobs": {
+      "Type": "Map",
+      "ItemsPath": "$.stocks",
+      "MaxConcurrency": 0,
+      "Parameters": {
+        "s3bucket.$": "$.s3.bucket.name",
+        "iterations": "100",
+        "stock.$": "$$.Map.Item.Value"
+      },
+      "Iterator": {
+        "StartAt": "Run Job",
+        "States": {
+          "Run Job": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::batch:submitJob.sync",
+            "Parameters": {
+              "JobDefinition": "JOB-DEFINITION-NAME:REVISION_ID",
+              "JobName": "step-functions-batch-job",
+              "JobQueue": "JOB-QUEUE-NAME",
+              "Parameters.$": "$"
+            },
+            "End": true
+          }
+        }
+      },
+      "End": true
+    }
+  }
+}
