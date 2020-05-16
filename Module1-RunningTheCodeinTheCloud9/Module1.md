@@ -51,12 +51,7 @@ As an optional step, you can test out Cloud9's debugging features
 	python simulator.py --iterations 50
 	```
 	
-	You should see a csv generated as the result of the simulation run. We didn't specify a S3 bucket to upload the results to, so it's stored in the local file directory: 
-	
-	<img src="images/local-results-with-ls.png" width="80%">
-	
-	
-	If you see an error, don't worry. Sometimes downloading the ticker data from Yahoo finance fail, so just rerun the script a few times.
+	You should see a csv generated as the result of the simulation run. We didn't specify a S3 bucket to upload the results to, so it's stored in the local file directory.
 	
 1. You can open the resulting csv to see what it looks like. 
 	
@@ -73,4 +68,4 @@ As an optional step, you can test out Cloud9's debugging features
 
 ## Next step
 
-Move on to [**Module 2: Build a docker container**](./Module2-BuildDockerAndPushToAmazonECR/Module2.md)
+Move on to [**Module 2: Build a docker container**](../Module2-BuildDockerAndPushToAmazonECR/Module2.md)

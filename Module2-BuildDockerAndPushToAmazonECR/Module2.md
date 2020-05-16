@@ -119,4 +119,4 @@ To build a docker container, we need to create a **Dockerfile**, a text document
 
 ## Next step
 
-Move on to [**Module 3: Create a First AWS Batch Job**](./Module3-CreateFirstAWSBatchJob/Module3.md)
+Move on to [**Module 3: Create a First AWS Batch Job**](../Module3-CreateFirstAWSBatchJob/Module3.md)

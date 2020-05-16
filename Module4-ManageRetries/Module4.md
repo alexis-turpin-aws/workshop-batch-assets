@@ -36,4 +36,4 @@ You have successfully built an batch job in a Docker container that can elastica
 
 There are a lot more things you can do, and head to the [extra credit](ExtraCredit.md) section for some ideas! 
 
-Go to [**Module 5 : AWS Batch Jobs On Spot Instances**](./Module5-AWSBatchJobsOnSpotInstances/Module5.md) section to clean up the environment. 
+Go to [**Module 5 : AWS Batch Jobs On Spot Instances**](../Module5-AWSBatchJobsOnSpotInstances/Module5.md) section to clean up the environment. 

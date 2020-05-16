@@ -72,4 +72,4 @@ In this section, we will use the AWS batch first run wizard to walk through:
 
  Thankfully, AWS batch provides an easy mechanism to enable job retries! 
  
- Go to [**Module 4 : Manage Retries**](./Module4-ManageRetries/Module4.md) to learn how to make your batch jobs more resilient to failures! 
+ Go to [**Module 4 : Manage Retries**](../Module4-ManageRetries/Module4.md) to learn how to make your batch jobs more resilient to failures! 
