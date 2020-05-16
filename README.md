@@ -45,6 +45,7 @@ $ docket build -t <b><i>simulator</i></b>
 <a name="begin"></a>
 ## Let's start
 
-Move on to [**Module 1: Running The Code In a Cloud9 Environment**](./Module1-RunningTheCodeinCloud9/Module1.md)
+Move on to [**Module 1: Running The Code In a Cloud9 Environment**](./Module1-RunningTheCodeinTheCloud9/Module1.md)
+
 
 

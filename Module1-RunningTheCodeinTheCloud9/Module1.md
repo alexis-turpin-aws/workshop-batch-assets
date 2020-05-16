@@ -22,8 +22,6 @@ As an optional step, you can test out Cloud9's debugging features
 1. Now take a look at the main source code file, `simulator.py` in this folder. 
 
 	To do this, you can use the code editor of the Cloud9 IDE. Go to the left hand **Environment** tool bar, click into the `workshop` folder, and then into `Module1-RunningTheCodeinTheCloud9`
-	
-	<img src="images/open-simulator-file.png" />
 		
 1. As you can see in the beginning of the file, multiple external libraries such as `pandas_datareader` and `numpy` are used in the code. We need to install the dependencies so we can run the code locally
 
@@ -69,7 +67,6 @@ As an optional step, you can test out Cloud9's debugging features
 	```
 
 	When it succeeds, you should see the output like this:
-	<img src="images/uploading-to-s3-cmd.png" width="85%">
 	
 	You can then go to the [S3 console](https://console.aws.amazon.com/s3/home) and verify the results have been uploaded to S3
 	
