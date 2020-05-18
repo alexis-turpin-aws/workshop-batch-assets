@@ -9,7 +9,7 @@ As an optional step, you can test out Cloud9's debugging features
 1. In the terminal window of the cloud9 environment, enter to downloaded Module1 directory with:
 
 	```bash
-	cd workshop/Module1-RunningTheCodeinTheCloud9
+	cd ~/environment/workshop/Module1-RunningTheCodeinTheCloud9/
 	```
 	
 1. Create a virtual environment for python 3.6. (There are also many other benefits of using [virtualenv](https://virtualenv.pypa.io/en/stable/) in managing python dependencies. )

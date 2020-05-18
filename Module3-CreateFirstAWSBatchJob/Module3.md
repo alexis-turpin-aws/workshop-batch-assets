@@ -44,11 +44,13 @@ In this section, we will use the AWS batch first run wizard to walk through:
 	* **Key**: `stock`   **Value**: `AMZN`   
 
 1. Click **Next** 
-1. In the **Set your compute environment type** section, use `simulator-compute-environment` and leave the rest as default
+1. In the **Set your compute environment type** section, use `simulator-compute-environment` and select the service role and EC2 instance role created for you
 	
 1. In **Configure your compute resources**, keep the defaults
 
-1. in **Set up your job queue**, use `simulator-compute-environment` as the queue name:
+1. In **Set up your networking**, select the VPC workshop Batch and the private subnet
+
+1. in **Set up your job queue**, use `simulator-job-queue` as the queue name:
 
 1. Finally, click **Create**
  

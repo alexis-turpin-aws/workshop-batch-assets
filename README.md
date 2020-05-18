@@ -29,9 +29,9 @@ These labs are designed to be completed in sequence.  If you are reading this at
 **Module 1:** Running The Code In a Cloud9 Environment  
 **Module 2:** Build a Docker anf Push to Amazon ECR  
 **Module 3:** Create a First AWS Batch Job  
-**Module 4:** Manage Retries 
+**Module 4:** Manage Retries  
 **Module 5:** Run AWS Batch Jobs on Spot Instances  
-**Module 6:** Create Complex Workflows with Step Functions 
+**Module 6:** Create Complex Workflows with Step Functions  
 
 <a name="conventions"></a>
 ### Conventions:  
