@@ -28,7 +28,6 @@ To build a docker container, we need to create a **Dockerfile**, a text document
 
 	**CMD [“exec”, “param1”, “param2”]** Sets the command to be executed when running the image.
 
-	
 1. Save the file as **Dockerfile** in the `Module1-RunningTheCodeinTheCloud9/` folder - **Make sure to captalize the D!**
 
 1. In the terminal:
@@ -59,7 +58,7 @@ To build a docker container, we need to create a **Dockerfile**, a text document
 	
 	When you don't specify additional commands, the container will run the `CMD` argument specified in our **Dockerfile** by default. When it's done executing all the commands, the container will exit. 
 	
-1. You can override the command the container runs by doing `docker run -t monte-carlo-simulator <command to run instead of default>`
+1. You can override the command the container runs by doing `docker run -t simulator <command to run instead of default>`
 
 	For example, the below will run the `ls` command in the container
 	

@@ -15,7 +15,7 @@ In this module, you will learn how to run batch jobs using AWS Batch on a comput
 Keep the defaults.
 
 1. In **Configure your compute resources** section, choose **Spot **and leave the rest as default.
-2. In **Networking** section, select your VPC, subnets and Security Groups.
+2. In **Networking** section, select your VPC **Workshop Batch**, subnets and Security Groups.
 3. Finally, click **Create**.
 4. Go to **Job Queues **and edit the queue you created.
 5. Add the Compute environment for Spot you just created and move it first on the list. Click **Edit**.

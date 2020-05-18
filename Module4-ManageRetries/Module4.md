@@ -9,8 +9,8 @@ As you may have noticed in the last module, occasionally, your batch job might f
 
 1. For Job run-time:
 	* **Job name**: use `job-with-retry` 
-	* **Job definition**: pick the definition you created in last module (e.g. "<your-user-name>-monte-carlo-job")
-	* **Job queue**: the job queue you created in last module (e.g. "<your-user-name>-queue")
+	* **Job definition**: pick the definition you created in last module (e.g. "simulator-job")
+	* **Job queue**: the job queue you created in last module (e.g. "simulator-job-queue")
  
 1. For environment
 
